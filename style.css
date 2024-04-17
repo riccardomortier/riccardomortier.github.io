@@ -22,7 +22,7 @@ html {
 }
 body {
     background: var(--bg-color);
-    color: var(--text-color)
+    color: var(--text-color);
 }
 .header {
     position: fixed;
@@ -208,15 +208,15 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend Designer";
+        content: "Web Developer";
     }
     21%,
     40% {
-        content: "Web Designer";
+        content: "Web Developer";
     }
     41%,
     60% {
-        content: "UI / UX Designer";
+        content: "Web Developer";
     }
     61%,
     80% {
@@ -224,7 +224,7 @@ span {
     }
     81%,
     100% {
-        content: "Software Tester";
+        content: "Web Developer";
     }
 }
 @keyframes typing {
