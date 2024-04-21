@@ -397,20 +397,20 @@ span {
     max-height: 100px;
     line-height: 1.7;
 }
-.reviews {
+.testimonials {
     background: var(--second-bg-color);
 }
-.reviews-box {
+.testimonials-box {
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.reviews .heading {
+.testimonials .heading {
     margin-bottom: 5rem;
 }
-.reviews-box img {
+.testimonials-box img {
     width: 15rem;
     border-radius: 50%;
     border: 3px solid var(--main-color);
@@ -424,7 +424,7 @@ span {
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 }
-.review-item {
+.testimonial-item {
     min-height: 550px;
     max-width: 450px;
     background: rgba(0, 0, 0, 0.7);
@@ -442,15 +442,15 @@ span {
     color: white;
     transition: 0.4s ease-in-out;
 }
-.review-item:hover {
+.testimonial-item:hover {
     border: 3px solid var(--main-color);
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
-.review-item h2 {
+.testimonial-item h2 {
     font-size: 2.8rem;
 }
-.review-item p {
+.testimonial-item p {
     font-size: 1.3rem;
 }
 #prev, #next {
@@ -605,7 +605,7 @@ span {
     .services {
         padding-bottom: 7rem;
     }
-    .reviews .slider {
+    .testimonials .slider {
         grid-template-columns: repeat(1,1fr);
     }
     .contact form {
